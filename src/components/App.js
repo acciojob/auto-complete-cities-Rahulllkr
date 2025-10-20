@@ -4,8 +4,8 @@ import './../styles/App.css';
 
 const App = () => {
   const suggestions = ["Mumbai","Delhi","Haryana","Ayodhya"]
-  const [text,setText] = useState("");
-  const [temp,setTemp] = useState([])
+  const [text,setText] = useState();
+  const [temp,setTemp] = useState()
 
   useEffect(() => {
     if(text === "")return
